@@ -3,10 +3,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-
+<div id="container">
+    <div class="head"><h2><b>CASIO</b></h2></div>
+    <div class="input">
+        <input readonly type="text" id="inp">
+    </div>
+    <br>
+    <div class="full">
+        <div id="btn"> 
+            <button onclick="work(1)">1</button>
+            <button onclick="work(2)">2</button>
+            <button onclick="work(3)">3</button>
+            <button onclick="work('+')">+</button>
+            <button onclick="clr()">AC</button>
+        </div>
+        <br>
+        <div id="btn"> 
+            <button onclick="work(4)">4</button>
+            <button onclick="work(5)">5</button>
+            <button onclick="work(6)">6</button>
+            <button onclick="work('-')">-</button>
+            <button onclick="work('%')">%</button>
+        </div>
+        <br>
+        <div id="btn"> 
+            <button onclick="work(7)">7</button>
+            <button onclick="work(8)">8</button>
+            <button onclick="work(9)">9</button>
+            <button onclick="work('*')">x</button>
+            <button onclick="work('.')">.</button>
+        </div>
+        <br>
+        <div id="btn"> 
+            <button onclick="work(0)">0</button>
+            <button onclick="work('/')">/</button>
+            <button onclick="eq()">=</button>
+            <button onclick="clr()">C</button>
+            <button onclick="clearAll()">CA</button>
+        </div>
+     
+        </div>
+        <br>
+</div>
 
 
 
